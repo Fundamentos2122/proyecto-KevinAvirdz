@@ -1,0 +1,223 @@
+
+* { 
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+
+
+html,
+body
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul { 
+    margin: 0; 
+}
+
+
+body{
+    background-color: black;
+}
+
+
+#menu{
+    background-color: grey;
+
+}
+
+#menu ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+#menu ul  li{
+        display: inline-block;
+    
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+p{
+    padding: 100px 100px;
+    color: white;
+    text-align: center;
+    font-size:  25px;
+
+}
+
+#menu ul li a:hover{
+
+    background-color: rgb(194, 194, 194);
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+}
+
+.img img{
+ display: block;
+ padding:  5px 20px;
+}
+
+.pie{
+background-color: rgb(39, 39, 39);
+display: flex;
+flex-direction: row;
+padding: 5%;
+}
+
+.pie > .logos{
+    display: block; 
+    text-align: center;
+    padding: 10px  50px;
+}
+
+.pie > .paginas {
+    display: block;
+    color: white;
+    text-align:left;
+    padding: 20px 200px;
+}
+
+.pie > .encuentranos {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 20px 200px;
+}
+
+.vacio{
+    padding: 5%;
+}
+
+
+.datos h6{
+    color: white;
+    font-size:30px;
+    padding: 0px ;
+}
+
+.datos p{
+    padding: 10px;
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.ubicacion iframe{
+    display: block;
+}
+
+.ubicacion p{
+    display: block;
+    text-align: left;
+}
+.prod{
+    padding: 5% 0;
+}
+
+.prod ul {
+        display: flex;
+        flex-direction: row;
+
+}
+
+.prod ul li{
+    padding: 10px;
+    display: block;
+}
+
+.Tipo ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Tipo ul li{
+    color: white;
+    padding: 20px 11%;
+}
+
+.promo{
+    width: 250%;
+    margin: auto;
+    overflow-y: hidden;
+}
+
+.promo ul{
+    display: flex;
+    padding: 0px;
+    width: 200%;
+
+    animation: cambio 20s infinite;
+}
+
+.promo ul li{
+    width: 50%;
+    list-style: none;
+}
+
+.promo img{
+    width: 50%;
+}
+
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -00%;}
+
+}
+
+
+.ruta ul{
+    padding: 10%;
+list-style: none;
+ display: flex;
+ flex-direction: row;
+}
+
+.ruta ul li{
+padding: 0%;
+display: block;
+text-align: left;
+color: white;
+}
+
+
+@media scrend and(min-width: 768px){
+    
+
+img {
+ width: auto;
+ height: auto;
+}
+}
